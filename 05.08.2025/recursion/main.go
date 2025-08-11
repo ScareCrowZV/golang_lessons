@@ -20,4 +20,5 @@ func main() {
 
 	*/
 	recursionExample.ArithmeticProgressionElementWithPrint(1, 2, 5)
+
 }

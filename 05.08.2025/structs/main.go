@@ -52,6 +52,13 @@ func (a DeveloperGO) Optimize(CodeLines int) bool {
 }
 
 func main() {
+
+	// Вариант 1: Создаёт экземпляр структуры со значениями по умолчанию
+	var SQLLanguage1 DevLanguage
+
+	// Вариант 2: Так же как и в варианте 1
+	SQLLanguage2 := DevLanguage{}
+
 	SQLLang := DevLanguage{
 		Name:       "SQL",
 		Complexity: 4,
